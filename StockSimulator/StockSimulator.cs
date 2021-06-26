@@ -21,7 +21,7 @@ namespace Project.Simulator
         const int DELAY_MIN = 2000;
         const int DELAY_MAX = 15000;
 
-        List<string> STOCKS = new List<string>() { "A", "B", "C", "D", "E", "F", "G", "J" };
+        readonly List<string> STOCKS = new List<string>() { "A", "B", "C", "D", "E", "F", "G", "J" };
         #endregion
 
         #region Public Method

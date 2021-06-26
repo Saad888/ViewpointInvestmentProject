@@ -4,7 +4,6 @@ using Project.Simulator;
 using Project.Repository;
 using Project.Trading;
 
-
 namespace ViewpointInvestmentProject
 {
     class Program

@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Logger.cs\Logging.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\StockRepository\StockRepository.csproj" />
     <ProjectReference Include="..\StockSimulator\StockSimulator.csproj" />
