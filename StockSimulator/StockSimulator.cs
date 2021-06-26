@@ -17,7 +17,7 @@ namespace Project.Simulator
 
         const double PRICE_MIN = 10.00;
         const double PRICE_MAX = 100.00;
-        const double ADJUST_LIMIT = 0.1;
+        const double ADJUST_LIMIT = 0.15;
         const int DELAY_MIN = 2000;
         const int DELAY_MAX = 15000;
 

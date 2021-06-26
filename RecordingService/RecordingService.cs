@@ -13,6 +13,7 @@ namespace Project.Recording
         {
             Connection = new SqlConnection(CONNECTION_STRING);
             Connection.Open();
+            ClearTable();
         }
 
         public void RecordTransaction(List<Transaction> transactions)
@@ -35,6 +36,13 @@ namespace Project.Recording
             command.Parameters.Add(new SqlParameter("@price", transaction.Price));
             command.Parameters.Add(new SqlParameter("@execution_date", transaction.ExecutionDate));
 
+            command.ExecuteNonQuery();
+        }
+
+        private void ClearTable()
+        {
+            string sql = "DELETE FROM transactions";
+            var command = new SqlCommand(sql, Connection);
             command.ExecuteNonQuery();
         }
     }
