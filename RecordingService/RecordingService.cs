@@ -6,7 +6,7 @@ namespace Project.Recording
 {
     public class RecordingService
     {
-        private const string CONNECTION_STRING = "Server=tcp:xaaddb.database.windows.net,1433;Initial Catalog=viewpoint;Persist Security Info=False;User ID=Saad888;Password=Makoeffect7&;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private const string CONNECTION_STRING = "CONNECTION_STRING";
         private SqlConnection Connection { get; set; }
 
         public RecordingService()
