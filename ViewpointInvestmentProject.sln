@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "StockRepositor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockSimulator", "StockSimulator\StockSimulator.csproj", "{88360BD8-F40A-4041-A491-C24A0E7AEBDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logger.cs\Logging.csproj", "{7F95851D-53D4-48AD-91CA-275C57CF823D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logger\Logging.csproj", "{7F95851D-53D4-48AD-91CA-275C57CF823D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordingService", "RecordingService.cs\RecordingService.csproj", "{FED235B8-0588-4360-8086-FE913B8E82B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordingService", "RecordingService\RecordingService.csproj", "{FED235B8-0588-4360-8086-FE913B8E82B0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingService", "TradingService\TradingService.csproj", "{A12A4F37-7652-4885-B3D4-A91F692A5B0D}"
 EndProject
