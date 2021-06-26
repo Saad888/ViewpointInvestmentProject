@@ -6,8 +6,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Logger.cs\Logging.csproj" />
+    <ProjectReference Include="..\Logger\Logging.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\RecordingService.cs\RecordingService.csproj" />
+    <ProjectReference Include="..\RecordingService\RecordingService.csproj" />
     <ProjectReference Include="..\StockRepository\StockRepository.csproj" />
   </ItemGroup>
 
